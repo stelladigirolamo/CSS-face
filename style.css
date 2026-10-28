@@ -1,0 +1,61 @@
+.eyes {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border: 55px solid white;
+    border-radius: 8px;
+}
+
+#face {
+    background-color: yellow;
+    width: 500px;
+    height: 600px;
+    margin: 60px auto;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mouth {
+    width: 350px;
+    height: 260px;
+    background-color: black;
+    margin: 1px auto 0;
+
+    flex-wrap: wrap;
+    gap: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.teeth {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    margin: 10px;
+}
+
+.tounge{
+    width: 150px;
+    height: 160px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.tounge-split {
+    width: 10px;
+    height: 70px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
